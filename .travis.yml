@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+env:
+  - DATABASE_URL=mongodb://admin:naU9hTyG1@ds121222.mlab.com:21222/yodots
+deploy:
+  provider: heroku
+  api_key:
+    secure: lGu0fyk9kLTBT+x5vhA48qSBK1/pTboNBwzQ/gcVsfnDhAn1xk3SqxHMmZAkalTeRzSxJH21Ex8W5ZfClGAzjlUjl4huW6s166VRGq98j/qI4Vos1KcXsO2q6axVTPt/QK94gKGKfXKuVvVKv1gw/eoSONXvFv0x84GnC+oEqbnchmN3vTRCtnAQcRz3S8SPb5Vz5IWfRdAKXOeUzk2VcxdiP/ngzNFyEbizhzy+bqiNmq2RRj7uBQ5yAI91uTBmPy5RiejsKreYP5EZM3pQhySD6LhqbWZeHoyuYO1f3y5yUv97uk5ezeTw68JgEJLA1ZcG1Tl0GKf5Qt13M7ZpSbqnLvns5dJrO3huxcJejZs4G0ERowhnmYGlvOmcJ9m3pfZs/N5tyWVdsdX+SsCSW5AAy/O+ZTDHwbbCOqiFk8fDax+2/06or5cW8IqqCfSOXOUA12sfN7ccs56zCRRLM3hgvA1rgqRDp2ViOnUvNYyySEPXfcM9UuNdK8nXUaOU+Bcw9cm1XLnncWHsgTbmb6rCCHjm5mLoY7NCQc68P8NyZQVs3YPVhSbiRLh4B0ss92vGng9FLul6lVVIUbvMkc/S05y96Rv/Isq3RCdHGthufrv4AUJdoJZn8q13W8XsLC3MUXRTHIckfMNWO0/a2cVPa+K+/7zcz1hGVYa4DZM=
+  app: yodots-api
+  on:
+    repo: aliciacasiano/yodots-api
