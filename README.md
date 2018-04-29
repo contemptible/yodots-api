@@ -7,29 +7,29 @@
 <h3>Endpoints</h3>
 <ul><strong>/login</strong>
 <ul>POST<br />
-Passing an object containing a user's email and password to this endpoint will return a token.</ul>
+Passing an object containing a user's email and password to this endpoint will return a token.</ul></ul>
 
-<strong>/users</strong>
+<ul><strong>/users</strong>
 <ul>POST<br />
-Passing an object containing a username, email, and password to this endpoint will create a new user.</ul>
+Passing an object containing a username, email, and password to this endpoint will create a new user.</ul></ul>
 
-<strong>/users/:userId/movies</strong>
+<ul><strong>/users/:userId/movies</strong>
 <ul>GET<br />
-Retrieves all of userId's movies.</ul>
+Retrieves all of userId's movies.</ul></ul>
 
-<strong>/users/:userId</strong>
+<ul><strong>/users/:userId</strong>
 <ul>PUT<br />
-Passing a new username to this endpoint will update the username for the user with userId.</ul>
+Passing a new username to this endpoint will update the username for the user with userId.</ul></ul>
 
-<strong>/users/:userId/movies</strong>
+<ul><strong>/users/:userId/movies</strong>
 <ul>POST<br />
-Passing a date and title to this endpoint will create a new movie for the user with userId.</ul>
+Passing a date and title to this endpoint will create a new movie for the user with userId.</ul></ul>
 
-<strong>/users/:userId/movies/:movieId</strong>
+<ul><strong>/users/:userId/movies/:movieId</strong>
 <ul>PUT<br />
-Passing a new title, date, star rating, or review to  this endpoint will update that information for the movie with movieId.</ul>
+Passing a new title, date, star rating, or review to  this endpoint will update that information for the movie with movieId.</ul></ul>
 
-<strong>/users/:userId/movies/:movieId</strong>
+<ul><strong>/users/:userId/movies/:movieId</strong>
 <ul>DELETE<br />
 Accessing this endpoint will delete the movie with the ID movieId.</ul></ul>
 
